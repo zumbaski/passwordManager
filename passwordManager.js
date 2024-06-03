@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 const saltRounds = 10;
 
-// Function to generate a secure password
+// This Function to generate a secure password
 function generatePassword(length = 12) {
   return crypto.randomBytes(length).toString('hex');
 }
