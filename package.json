@@ -4,13 +4,19 @@
   "description": "",
   "main": "passwordManager.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node passwordManager.js",
+    "dev": "nodemon passwordManager.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
   }
 }
